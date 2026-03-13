@@ -1,0 +1,66 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// User model for registration & login
+model User {
+  id               String   @id @default(uuid())
+  name             String
+  email            String   @unique
+  password         String   // bcrypt hashed
+  phoneNumber      String?
+  preferredRole    String   // SDE, Data Engineer, Data Science, Other
+  masterResume     String?  @db.Text
+  masterResumePdf  Bytes?   // Stores the original PDF file
+  masterResumeName String?  // Stores the original PDF filename
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  generatedResumes GeneratedResume[]
+}
+model Job {
+  id              String   @id @default(uuid())
+  externalId      String   @unique
+  title           String
+  organization    String?
+  location        String?
+  datePosted      DateTime?
+  url             String?
+  source          String?
+  descriptionText String?  @db.Text
+  category        String?  // Bucketed category: SDE, Data Engineer, Data Science, Other
+  atsPlatform     String?  // Workday, Taleo, Greenhouse, Lever, etc.
+  remote          Boolean?
+  salaryRaw       String?
+  employmentType  String?
+  experienceLevel String?
+  taxonomies      String[]
+  fetchedAt       DateTime @default(now())
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  @@index([datePosted])
+  @@index([title])
+  @@index([organization])
+
+  generatedResumes GeneratedResume[]
+}
+
+model GeneratedResume {
+  id        String   @id @default(uuid())
+  userId    String
+  jobId     String
+  content   String   @db.Text
+  pdfBuffer Bytes?
+  pdfName   String?
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id])
+  job       Job      @relation(fields: [jobId], references: [id])
+
+  @@unique([userId, jobId])
+}

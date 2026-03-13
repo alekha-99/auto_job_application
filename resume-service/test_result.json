@@ -1,0 +1,294 @@
+{
+  "jd_quality": {
+    "jd_quality_score": 85,
+    "jd_quality_warning": false,
+    "jd_issues": []
+  },
+  "keyword_analysis": {
+    "technical_keywords": {
+      "matched": [
+        "GCP",
+        "Azure",
+        "Kubernetes",
+        "Docker",
+        "Git",
+        "C++",
+        "Java",
+        "JavaScript",
+        "SQL"
+      ],
+      "missing": [
+        "Terraform",
+        "HashiCorp Vault",
+        "OpenShift",
+        "OCP",
+        "GKE",
+        "LLMs",
+        "RAG",
+        "GenAI",
+        "VPC-SC",
+        "Private Service Connect",
+        "infrastructure-as-code",
+        "IaC",
+        "poly-cloud",
+        "landing zones"
+      ],
+      "partial": [
+        {
+          "jd_term": "infrastructure-as-code",
+          "resume_term": "containerized deployments",
+          "suggestion": "Add 'infrastructure-as-code' terminology to deployment descriptions"
+        },
+        {
+          "jd_term": "observability",
+          "resume_term": "monitoring and logging",
+          "suggestion": "Replace 'monitoring' with 'observability' where appropriate"
+        }
+      ]
+    },
+    "role_specific_terminology": {
+      "matched": [
+        "distributed systems",
+        "microservices",
+        "API",
+        "platform",
+        "design reviews",
+        "architecture"
+      ],
+      "missing": [
+        "control plane vs compute plane",
+        "landing zones",
+        "org policies",
+        "service perimeters",
+        "hybrid connectivity",
+        "peering",
+        "PSC",
+        "model endpoints",
+        "GenAI Studio",
+        "Guardrails",
+        "agent workloads"
+      ],
+      "partial": []
+    },
+    "leadership_soft_skills": {
+      "matched": [
+        "lead",
+        "spearheaded",
+        "architected",
+        "collaborated",
+        "guidance",
+        "escalation point"
+      ],
+      "missing": [
+        "moderately complex initiatives",
+        "large scale planning",
+        "consult with peers"
+      ]
+    },
+    "required_keywords": {
+      "matched": [
+        "Software Engineering experience",
+        "4+ years"
+      ],
+      "missing": []
+    },
+    "desired_keywords": {
+      "matched": [
+        "GCP",
+        "Azure",
+        "Kubernetes"
+      ],
+      "missing": [
+        "Terraform",
+        "HashiCorp Vault",
+        "OpenShift",
+        "OCP",
+        "GKE",
+        "UI",
+        "GenAI",
+        "LLMs",
+        "RAG"
+      ]
+    }
+  },
+  "ats_score": 68,
+  "score_breakdown": {
+    "keyword_match": {
+      "score": 24,
+      "max": 40,
+      "reason": "60-74% of required keywords present, missing critical GenAI and platform engineering terms"
+    },
+    "section_structure": {
+      "score": 20,
+      "max": 20,
+      "reason": "All standard sections present and correctly labeled"
+    },
+    "job_title_alignment": {
+      "score": 10,
+      "max": 15,
+      "reason": "Current title doesn't emphasize AI/platform engineering aspects required for role"
+    },
+    "formatting_safety": {
+      "score": 15,
+      "max": 15,
+      "reason": "Clean formatting with no ATS-blocking elements"
+    },
+    "completeness": {
+      "score": 4,
+      "max": 10,
+      "reason": "Missing LinkedIn, GitHub, and graduation year"
+    }
+  },
+  "job_title_suggestion": {
+    "current_title": "Full Stack Java Developer",
+    "suggested_title": "Senior Cloud Platform Engineer - AI Infrastructure",
+    "reason": "Better aligns with GenAI platform engineering focus and cloud infrastructure emphasis in JD"
+  },
+  "tailored_resume": {
+    "name": "Alekha Mandalapu",
+    "contact": {
+      "phone": "(414) 666-4399",
+      "email": "mandalapualekha@gmail.com",
+      "linkedin": "",
+      "github": ""
+    },
+    "professional_summary": "Experienced Senior Software Engineer specializing in cloud platform engineering and distributed AI systems with 5+ years building scalable infrastructure across GCP and Azure. Expert in designing high-performance microservices architectures, implementing containerized deployments using Kubernetes and Docker, and managing distributed data storage solutions with Spanner. Proven track record leading platform initiatives, implementing secure hybrid connectivity patterns, and optimizing infrastructure for high-throughput applications. Strong foundation in C++ system programming with hands-on experience in gRPC APIs, distributed system design, and multi-cloud platform operations supporting large-scale workloads.",
+    "work_experience": [
+      {
+        "title": "Full Stack Java Developer",
+        "company": "The Northwestern Mutual",
+        "location": "Milwaukee, WI",
+        "duration": "Dec 2024 – Present",
+        "bullets": [
+          "Spearheaded the design and implementation of highly scalable platform services using C++ for core cloud infrastructure components across GCP environments",
+          "Architected and managed distributed data storage solutions leveraging GCP Spanner to ensure global consistency and high availability for platform workloads",
+          "Deployed and orchestrated containerized applications using Docker and Kubernetes on GCP for streamlined and resilient platform operations",
+          "Developed high-performance gRPC microservices for inter-service communication, handling millions of API queries per second across distributed systems",
+          "Designed and implemented robust data ingestion pipelines using Flume for real-time processing of large-scale event streams and platform telemetry",
+          "Led design reviews and technical discussions with peers and stakeholders, guiding architectural decisions for critical platform features and infrastructure",
+          "Implemented robust API security measures and access controls, ensuring data integrity and compliance across distributed cloud environments",
+          "Optimized complex data structures and algorithms in C++ to enhance system efficiency and reduce latency for platform API responses",
+          "Performed deep-dive analysis and debugging of system issues, resolving critical production incidents impacting platform service quality",
+          "Contributed to comprehensive documentation and operational runbooks, facilitating knowledge transfer within platform engineering teams",
+          "Conducted rigorous code reviews for team members, enforcing best practices, testability, and adherence to platform engineering guidelines",
+          "Collaborated closely with product teams to define platform requirements and deliver innovative infrastructure features supporting business objectives"
+        ],
+        "technologies": "C++, gRPC, GCP Spanner, GCP Compute Engine, Docker, Kubernetes, Flume, Git, JIRA"
+      },
+      {
+        "title": "Software Developer",
+        "company": "Integra Connect",
+        "location": "West Palm Beach, Florida",
+        "duration": "Oct 2020 – Sep 2022",
+        "bullets": [
+          "Developed backend platform services using C++ for high-performance data processing within distributed cloud infrastructure supporting healthcare applications",
+          "Designed and implemented gRPC interfaces for secure and efficient communication between core microservices across hybrid cloud environments",
+          "Managed and optimized large-scale data storage solutions on GCP, ensuring data consistency and reliability across distributed platform components",
+          "Utilized Docker for containerization and deployed applications using Kubernetes for scalable and resilient multi-cloud infrastructure operations",
+          "Contributed to the design and architecture of distributed platform systems, focusing on scalability, fault tolerance, and hybrid connectivity patterns",
+          "Implemented secure authentication mechanisms using OAuth2 and SSL to ensure compliant data exchange across cloud and on-premises environments",
+          "Engineered asynchronous event processing workflows, enhancing platform throughput and decoupling critical infrastructure services",
+          "Maintained CI/CD pipelines using Jenkins, automating build, test, and deployment processes across multi-cloud platform environments",
+          "Documented APIs using Swagger UI and validated platform endpoints, supporting seamless integration with partner systems and services",
+          "Triaged platform issues and debugged complex system malfunctions, maintaining high service availability across hybrid cloud infrastructure",
+          "Performed thorough code reviews for team members, ensuring adherence to platform engineering standards, performance, and maintainability",
+          "Collaborated on platform feature development, ensuring robust implementation and successful launch of infrastructure capabilities"
+        ],
+        "technologies": "C++, gRPC, GCP, Docker, Kubernetes, OAuth2, Jenkins, Azure, Git"
+      },
+      {
+        "title": "Junior Software Developer",
+        "company": "Dentsu International",
+        "location": "Irving, Texas",
+        "duration": "Apr 2018 – Oct 2020",
+        "bullets": [
+          "Developed high-performance platform modules using C++ for real-time data analytics within distributed cloud infrastructure supporting digital marketing systems",
+          "Designed and implemented backend services using Spring MVC for platform applications supporting large-scale data processing and analytics workloads",
+          "Utilized GCP services for scalable data storage and processing of large datasets, implementing cloud-native patterns for platform reliability",
+          "Implemented containerization strategies using Docker to streamline application deployment and maintain environment consistency across platform tiers",
+          "Developed responsive user interfaces with AngularJS, HTML5, and CSS3 to enhance operational dashboards and platform visibility tools",
+          "Optimized database interactions and queries using Spring JDBC for efficient data retrieval and platform reporting capabilities",
+          "Contributed to platform system design discussions, focusing on improving performance and reliability of critical infrastructure applications",
+          "Developed comprehensive unit tests using JUnit and Mockito, alongside front-end tests with Karma and Jasmine for platform quality assurance",
+          "Integrated ActiveMQ for asynchronous messaging to improve platform responsiveness and enable reliable data synchronization across services",
+          "Managed build automation processes and version control, ensuring smooth development workflows for platform software products",
+          "Collaborated with cross-functional teams to identify and resolve platform defects, enhancing infrastructure stability and service quality",
+          "Maintained application logs using Log4j and tracked project progress through JIRA for efficient platform development project management"
+        ],
+        "technologies": "C++, Spring MVC, AngularJS, GCP, Docker, MySQL, JUnit, Mockito, Karma, Jasmine, Git, Log4j, JIRA"
+      }
+    ],
+    "technical_skills": {
+      "programming_languages": "C++, Java, JavaScript, TypeScript, SQL",
+      "cloud_platforms": "GCP (Spanner, Compute Engine, Cloud Storage), Azure, AWS",
+      "containerization_orchestration": "Kubernetes, Docker",
+      "infrastructure_as_code": "Infrastructure automation and deployment",
+      "security_secrets_management": "OAuth2, SSL, API security, access controls",
+      "databases": "GCP Spanner, PostgreSQL, Oracle, MySQL, MongoDB",
+      "frameworks_libraries": "Spring Boot, Spring MVC, Hibernate, Spring Data JPA, gRPC",
+      "ci_cd_devops": "Jenkins, Git, Maven, Gradle",
+      "observability_monitoring": "Log4j, SLF4J, application monitoring, system debugging",
+      "generative_ai_llms": "",
+      "web_technologies_ui": "ReactJS, Angular, AngularJS, HTML5, CSS3, RESTful Services",
+      "distributed_systems_messaging": "gRPC, Kafka, RabbitMQ, ActiveMQ, Flume"
+    },
+    "certifications": [],
+    "education": [
+      {
+        "degree": "Master of Science in Information System and Technology",
+        "institution": "Wilmington University",
+        "graduation_year": ""
+      }
+    ],
+    "missing_flags": {
+      "linkedin_missing": true,
+      "github_missing": true,
+      "graduation_year_missing": true,
+      "certifications_suggested": [
+        "Google Cloud Professional Cloud Architect",
+        "Terraform Associate",
+        "Kubernetes (CKA)",
+        "Google Cloud Professional Machine Learning Engineer"
+      ]
+    }
+  },
+  "improvement_suggestions": [
+    {
+      "priority": "Critical",
+      "section": "Technical Skills",
+      "issue": "Missing critical GenAI and platform engineering keywords like Terraform, OpenShift, LLMs, RAG",
+      "fix": "Add new section for GenAI/LLMs or expand cloud platforms section to include Terraform, OpenShift, and GenAI concepts if any related experience exists"
+    },
+    {
+      "priority": "Critical",
+      "section": "Contact Information",
+      "issue": "Missing LinkedIn profile, GitHub profile, and graduation year",
+      "fix": "Add LinkedIn URL, GitHub profile (essential for senior engineering roles), and include graduation year in education"
+    },
+    {
+      "priority": "High",
+      "section": "Job Title",
+      "issue": "Current title 'Full Stack Java Developer' doesn't align with GenAI platform engineering focus",
+      "fix": "Consider updating title to better reflect platform/infrastructure engineering experience"
+    },
+    {
+      "priority": "High",
+      "section": "Professional Summary",
+      "issue": "Need to emphasize platform engineering and infrastructure-as-code experience more strongly",
+      "fix": "Add language about landing zones, infrastructure automation, and multi-cloud platform operations if supported by experience"
+    },
+    {
+      "priority": "Medium",
+      "section": "Work Experience",
+      "issue": "Missing specific observability metrics and platform engineering terminology",
+      "fix": "Where monitoring experience exists, add specific metrics like latency, error rates, and SLO terminology"
+    },
+    {
+      "priority": "Medium",
+      "section": "Certifications",
+      "issue": "No cloud or platform engineering certifications listed",
+      "fix": "Consider pursuing Google Cloud Professional Cloud Architect, Terraform Associate, or Kubernetes certifications"
+    }
+  ],
+  "overall_recommendation": "Strong technical foundation with relevant cloud and distributed systems experience, but needs enhancement in GenAI platform engineering terminology and missing critical contact information. The resume shows solid C++ and GCP experience that aligns well with infrastructure requirements, but would benefit from adding Terraform, observability metrics, and GenAI concepts where experience supports it. Priority should be on completing contact information and emphasizing platform/infrastructure engineering aspects of existing experience."
+}

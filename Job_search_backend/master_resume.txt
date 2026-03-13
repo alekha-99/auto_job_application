@@ -1,0 +1,90 @@
+Alekha Mandalapu                 — Senior Software Engineer
+(414) 666-4399 | mandalapualekha@gmail.com
+PROFESSIONAL SUMMARY:
+Experienced Senior Software Engineer with 5 years developing scalable, distributed systems using C++ and gRPC.
+Expert in designing and implementing high-performance metadata services and serving APIs for large-scale applications.
+Proficient in GCP core infrastructure technologies including Spanner for distributed data management and consistency.
+Skilled   in   orchestrating   microservices   and   containerized   deployments   using   Docker   and   Kubernetes   for   robust                                                                           
+operations.
+Adept at utilizing Flume for efficient, reliable data ingestion and processing in complex data pipelines and storage.
+Proven ability to lead design reviews, ensure best practices, and contribute to critical software design and architecture.
+Strong background in optimizing data structures and algorithms for high-throughput, low-latency distributed systems.
+Experienced in triaging and resolving complex product and system issues across large-scale infrastructure environments.
+Committed to developing and launching high-quality software products while driving continuous integration and delivery                                                                                                
+practices.
+WORK EXPERIENCE:
+Full Stack Java Developer @                     The Northwestern Mutual | Milwaukee, WI                                                            Dec 2024 – Present
+Spearheaded the design and implementation of highly scalable metadata services using C++ for core infrastructure                                                                                             
+components.
+Developed high-performance gRPC microservices for inter-service communication, handling millions of queries per                                                                                               
+second traffic.
+Architected and managed distributed data storage solutions leveraging GCP Spanner to ensure global consistency and                                                                                               
+high availability.
+Designed and implemented robust data ingestion pipelines using Flume for real-time processing of large-scale event                                                                                                
+streams.
+Deployed and orchestrated containerized applications using Docker and Kubernetes on GCP for streamlined and resilient                                                                                               
+operations.
+Led design reviews and technical discussions with peers and stakeholders, guiding architectural decisions for critical new                                                                                              
+features.
+Optimized complex data structures and algorithms in C++ to enhance system efficiency and reduce latency for data                                                                                           
+retrieval.
+Implemented robust API security measures and access controls, ensuring data integrity and compliance across distributed                                                                                               
+systems.
+Contributed to comprehensive documentation and educational content, facilitating knowledge transfer within engineering                                                                                                 
+teams.
+Conducted rigorous code reviews for team members, enforcing best practices, testability, and adherence to style                                                                                           
+guidelines.
+Performed deep-dive analysis and debugging of system issues, resolving critical production incidents impacting service                                                                                                
+quality.
+Collaborated closely with product teams to define requirements and deliver innovative new features, ensuring alignment                                                                                              
+with business objectives.
+Technologies Used:                C++, gRPC, Spanner, GCP, Docker, Kubernetes, Flume, Git, JIRA
+Software Developer @                  Integra Connect | West Palm Beach, Florida                                                             Oct 2020 – Sep 2022
+Developed backend services using C++ for high-performance data processing within a distributed healthcare platform.
+Designed and implemented gRPC interfaces for secure and efficient communication between core microservices.
+Managed and optimized large-scale data storage solutions on GCP, ensuring data consistency and reliability for patient                                                                                            
+records.
+Utilized Docker for containerization and deployed applications using Kubernetes for scalable and resilient infrastructure.
+Contributed to the design and architecture of distributed systems, focusing on scalability and fault tolerance.
+Implemented secure authentication mechanisms using OAuth2 and SSL to ensure HIPAA-compliant data exchange.
+Engineered asynchronous event processing workflows, enhancing system throughput and decoupling critical services.
+Performed thorough code reviews for team members, ensuring adherence to coding standards, performance, and                                                                                             
+maintainability.
+----------------Page (0) Break----------------
+Documented APIs using Swagger UI and validated endpoints, supporting seamless integration with partner systems.
+Triaged product issues and debugged complex system malfunctions, maintaining high service availability across hybrid                                                                                                
+cloud environments.
+Collaborated on feature development, ensuring robust implementation and successful launch of software products.
+Maintained CI/CD pipelines using Jenkins, automating build, test, and deployment processes across environments.
+Technologies Used:                C++, gRPC, GCP, Docker, Kubernetes, OAuth2, Jenkins, Azure, Git
+Junior Software Developer @                       Dentsu International | Irving, Texas                                                           Apr 2018 – Oct 2020
+Developed high-performance modules using C++ for real-time data analytics within the digital marketing platform.
+Designed and implemented backend services using Spring MVC for monolithic web applications supporting marketing                                                                                                
+analytics.
+Utilized GCP services for scalable data storage and processing of large datasets related to digital marketing campaigns.
+Implemented   containerization   strategies   using   Docker   to   streamline   application   deployment   and   environment                                                                                 
+consistency.
+Developed responsive user interfaces with AngularJS, HTML5, and CSS3 to enhance customer engagement dashboards.
+Optimized MySQL database interactions and queries using Spring JDBC for efficient reporting and data retrieval.
+Contributed to system design discussions, focusing on improving performance and reliability of critical applications.
+Developed comprehensive unit tests using JUnit and Mockito, alongside front-end tests with Karma and Jasmine.
+Managed build automation processes and version control, ensuring smooth development workflows for software                                                                                                 
+products.
+Integrated ActiveMQ for asynchronous messaging to improve system responsiveness and data synchronization.
+Collaborated with cross-functional teams to identify and resolve software defects, enhancing product stability and                                                                                              
+quality.
+Maintained application logs using Log4j and tracked project progress through JIRA for efficient project management.
+Technologies Used:                C++, Spring MVC, AngularJS, GCP, Docker, MySQL, JUnit, Mockito, Karma, Jasmine, Git, Log4j, 
+JIRA
+TECHNICAL SKILLS:
+Programming Languages:                      C++, Java, JavaScript, TypeScript, SQL
+Cloud Platforms:              GCP (Spanner, Flume, Compute Engine, Cloud Storage), Kubernetes, Docker, AWS, Azure
+Distributed Systems & Messaging:                          gRPC, Kafka, RabbitMQ, ActiveMQ
+Databases:          Spanner, PostgreSQL, Oracle, MySQL, MongoDB
+Frameworks & ORM:                 Spring Boot, Spring MVC, Hibernate, Spring Data JPA
+CI/CD & DevOps:            Jenkins, Git, Maven, Gradle
+Testing & Monitoring:                 JUnit, Mockito, Log4j, SLF4J
+Web Technologies & APIs:                    ReactJS, Angular, HTML5, CSS3, RESTful Services
+EDUCATION:
+Master of Science in Information System and Technology @ Wilmington University
+----------------Page (1) Break----------------
